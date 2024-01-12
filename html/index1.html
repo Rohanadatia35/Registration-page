@@ -1,7 +1,14 @@
-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/main.css">
+</head>
 <body>
-    <div>
+    
+    <div class="overlay">
         <form>
+            <h2>REGISTRATION PAGE</h2>
             <table>
                 <tr>
                     <td><label>Name</label></td>
@@ -12,35 +19,30 @@
                     <td><input type="email" name="email"></td>
                 </tr>
                 <tr>
-                    <td>
-                        <label>Gender</label>
-                    </td>
-                    <td>
+                    <td><label>Gender</label></td>
+                    <td colspan="2">
                         <input type="radio" name="Gender" value="Male">
                         <label for="Male">Male</label>
-                    </td>
-                    <td>
+                        
                         <input type="radio" name="Gender" value="Female">
                         <label for="Female">Female</label>
-                    </td>
-                    <td>
+                        
                         <input type="radio" name="Gender" value="Other">
                         <label for="Other">Other</label>
                     </td>
                 </tr>
+                
                 <tr>
                     <td>
-                        <label>Date of birth</label>
+                        <label>DOB</label>
                     </td>
                     <td>    
                         <input type="date" name="DOB">
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td colspan="2" style="padding-left:12%">
                         <button type="submit">Submit</button>
-                    </td>
-                    <td>
                         <button type="reset">Clear form</button>
                     </td>
                 </tr>
