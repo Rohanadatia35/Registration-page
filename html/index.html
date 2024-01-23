@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="components/main.css" />
+    <title>Registation Page</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <form action="/register" method="post">
+        <h2>REGISTRATION PAGE</h2>
+        <table>
+          <tr>
+            <td colspan="3"><label>Name:</label></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="text" name="name" size="70" required />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><label>Email:</label></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="email" name="email" size="70" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="3"><label>Password:</label></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="password" name="password" size="70" required />
+            </td>
+          </tr>
+        </table>
+        <tr>
+          <td colspan="2" style="padding-left: 33%">
+            <button type="submit">Register</button>
+            <button type="reset">Clear form</button>
+          </td>
+        </tr>
+      </form>
+    </div>
+  </body>
+</html>
