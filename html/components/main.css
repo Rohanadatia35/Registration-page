@@ -15,8 +15,8 @@ body {
     z-index: 1;
     text-align: center;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.155);
-    width: 35%;
-    height: 40%;
+    width: 40%;
+    height: 45%;
 }
 table,td,tr{
     align-items: center;
